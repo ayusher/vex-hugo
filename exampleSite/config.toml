@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
 baseurl = "http://examplesite.com/"
-title = "Vex | hugo landing page template"
+title = "Surmount AI"
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
@@ -47,55 +47,48 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Products"
-url = "products"
+name = "Use Case"
+pre = "#"
+url = "features"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
-url = "blog"
+name = "Promo"
+pre = "#"
+url = "promo"
 weight = 3
 
 [[menu.main]]
-name = "Review"
+name = "Products"
 pre = "#"
-url = "testimonial"
+url = "products"
 weight = 4
 
 [[menu.main]]
-name = "Contact"
-url = "contact"
+name = "Sign Up"
+pre = "#"
+url = "signup"
 weight = 5
+
+[[menu.main]]
+name = "About Us"
+pre = "#"
+url = "aboutus"
+weight = 6
 
 # footer menu
 [[menu.footer]]
-name = "Blog"
-url = "blog"
-weight = 1
-
-[[menu.footer]]
-name = "Contact"
-url = "contact"
-weight = 2
-
-[[menu.footer]]
 name = "Terms & Conditions"
 url = "terms-conditions"
-weight = 3
-
-[[menu.footer]]
-name = "Privacy Policy"
-url = "privacy-policy"
-weight = 4
-
+weight = 1
 
 ########################### Default parameters ##########################
 [params]
 logo = "images/logo.png"
-logo_width = "100px"
+logo_width = "150px"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Surmount AI"
 # currency
 currency = "$"
 # contact form action
@@ -111,9 +104,9 @@ preloader = "" # use .png , .svg or .gif format
 # Subscription
 [params.subscription]
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
-
+# https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_action = "https://surmount.us5.list-manage.com/subscribe/post?u=6893aac8705bed05ab2d6f6ff&amp;id=79d70d9223"
+mailchimp_form_name = "b_6893aac8705bed05ab2d6f6ff_79d70d9223" # replace this code with yours
 
 ################################### English language #####################################
 [Languages.en]
@@ -122,14 +115,4 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
-
-
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-# copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Surmount AI"

@@ -5,9 +5,11 @@ $primary-font: 'Josefin Sans',
 sans-serif;
 $secondary-font: 'Droid Serif',
 serif;
-$primary-color: #f9a743;
+$primary-color: #0030ff;
 $icon-font: 'themefisher-font' !important;
-
+html {
+  scroll-padding-top: 125px;
+}
 /*--
     Common Css
 --*/
@@ -162,7 +164,7 @@ a:active {
 .heading {
   text-align: center;
   color: #777777;
-  padding-bottom: 70px;
+  //padding-bottom: 70px;
 
   h2 {
     color: #3c3c3c;
@@ -201,7 +203,7 @@ a:active {
   padding: 15px 40px;
   display: inline-block;
   background-color: $primary-color;
-  box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+  box-shadow: 0 15px 40px rgba(0, 48, 255, 0.5);
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 
   &:hover,
@@ -354,8 +356,7 @@ a:active {
 --*/
 .testimonials {
   .testimonial-block {
-    padding: 0 10px;
-
+    padding-bottom: 70px;
     i {
       font-size: 40px;
       display: inline-block;
@@ -370,11 +371,10 @@ a:active {
     }
 
     .author-details {
-      margin-top: 30px;
 
       img {
         border-radius: 50%;
-        width: 50px;
+        width: 150px;
       }
 
       h4 {

@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ if $data.homepage.testimonial.enable }}
-<section class="testimonials section" id="testimonial">
+<section class="testimonials section" id="aboutus">
   <div class="container">
     {{ with $data.homepage.testimonial }}
     <div class="row justify-content-center">
@@ -10,12 +10,29 @@
           <h2>{{ .title | markdownify }}</h2>
         </div>
       </div>
+      <div class="col-12 col-md-12 align-self-center text-center text-md-center">
+        <h4 class="subheading">Core Team</h4>
+      </div>
+      
       {{ range .testimonial_item }}
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0 text-center">
         <div class="testimonial-block">
-          <i class="tf-ion-quote"></i>
-          <p>{{ .content | markdownify }}</p>
-          <div class="author-details">
+            <div class="author-details">
+            <img src="{{ .image | absURL }}" alt="{{ .name }}">
+            <h4>{{ .name }}</h4>
+            <span>{{ .designation }}</span>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
+      <div class="col-12 col-md-12 align-self-center text-center text-md-center">
+        <h4 class="subheading">Strategic Advisors</h4>
+      </div>
+      {{ range .testimonial_item2 }}
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0 text-center">
+        <div class="testimonial-block">
+            <div class="author-details">
             <img src="{{ .image | absURL }}" alt="{{ .name }}">
             <h4>{{ .name }}</h4>
             <span>{{ .designation }}</span>

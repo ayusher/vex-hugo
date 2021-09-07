@@ -1,129 +1,118 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Believe in Technology, Make the change"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image : "images/watch.png"
+  title : "Neural networks for financial markets"
+  content : "We provide individuals with the opportunity to invest hands-free through machine learning trading systems, algorithmic trading, and automatically copying the trades of investment professionals. We're on a mission to redefine how individuals approach the markets."
+  image : "images/nn.svg"
   button:
-   enable : true
+   enable : false
    label : "Browse All Products"
    link : "products"
 
 ############################# Feature ############################
 features:
   enable : true
-  title : "Our Core Features"
-  image : "images/watch-2.png"
+  title : "What is Surmount Made For?"
+  image : ""
 
   # feature at the left of the image
   left_side:
     # feature item loop
-  - title : "Smooth Touch"
-    icon : "tf-ion-ios-alarm-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - title : "Individual Investors"
+    icon : "tf-ion-ios-person-outline"
+    content : "Whether you’re new to trading or already a seasoned professional, our market solutions can save you time and increase your success & profitability."
     
     # feature item loop
-  - title : "Elegant Design"
-    icon : "tf-ion-ios-bell-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    
-    # feature item loop
-  - title : "Easy Pricing"
-    icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - title : "Portfolio Managers"
+    icon : "tf-ion-ios-book-outline"
+    content : "By constantly monitoring trends across multiple asset groups in the market and utilizing pattern recognition & outlier detection, we’re able to quickly and accurately generate forecast models, detect anomalies, and send signals in under a second - providing a superior advantage while making investment decisions"
 
 
   # feature at the right of the image
   right_side:
     # feature item loop
-  - title : "Smooth Touch"
-    icon : "tf-ion-ios-alarm-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - title : "Algorithmic Traders"
+    icon : "tf-ion-ios-play-outline"
+    content : "Already familiar with the process? Easily integrate some of our strongest models into your brokerage in Python, MQL4/5, & Pinescript languages. (C++ coming soon!)"
 
     # feature item loop
-  - title : "Elegant Design"
-    icon : "tf-ion-ios-bell-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-
-    # feature item loop
-  - title : "Easy Pricing"
-    icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-
+  - title : "Hedge Funds"
+    icon : "tf-ion-ios-pricetag-outline"
+    content : "We're always on the lookout for anomalies and trends in order to provide a competitive advantage. Our software is able to generate forecast models & recognize anomalies, and whether it's monitoring 10,000 assets or just one - we can quickly send signals that will give you an edge over your competition."
 
 ############################# promo ############################
 promo:
   enable : true
   image : "images/watch.png"
-  title : "Designed by professional , the benefit for creative gigs"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  title : "Market Analysis from Start to End"
+  content : "<b>Trading Signals</b><br>An extensive collection of some of the most reliable algorithmic trading strategies across several languages (Python, MQL4, MQL5, and Pinescript) that can make trading hands-free and more profitable
+  <br><br><b>Asset Forecasting</b><br>Detect risks & opportunities ahead of time with our neural network that scans markets at both macro/micro & alpha/beta levels to produce short-medium term price projections for multiple asset groups
+  <br><br><b>Portfolio Automation</b><br>Make trading hands-free by automating a portion of your existing portfolio to copy the trades of professional traders in real time, and/or with alpha models that use machine learning to make the best decisions in the market for you
+  <br><br><b>Custom Alpha Development</b><br>Interested in creating your own algorithmic strategy to automate your trades? Our quantitative analysts can build your concept into a fully functional alpha model that can easily be integrated into your existing portfolio for live trading. (crypto, FX, equities)"
 
 
 ############################# About Product #######################
 about_product:
   enable : true
-  title : "Why Choose Apple Watch"
+  title : ""
   items:
     # about product item loop
-    - image : "images/showcase/showcase-4.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+    - image : "images/FullSizeRender.mp4"
+      title : "How to Access"
+      content : "If you’re interested in licensing any of our Pinescript, MT4/5, or Python trading systems, please email contact@surmount.ai"
       button:
         enable : false
         label : "Check Features"
         link : "#"
-        
-    # about product item loop
-    - image : "images/showcase/showcase-3.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable : false
-        label : "Check Features"
-        link : "#"
-
-
-#################################### Products ########################
-products:
-  enable : true
-  title : "Checkout Our All Products"
 
 
 ################################## Subscription ###################
 subscription:
   enable : true
-  bg_image : "images/call-to-action.jpg"
+  bg_image : "images/call-to-action.png"
   title : "Get Product Updates"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  content : "Enter your email to subscribe to our newsletter and get occasional updates on our progress!"
   placeholder : "Your Email Address Here"
 
 
 ############################## Testimonial ##########################
 testimonial:
   enable : true
-  title : "Watch Review"
+  title : "About Us"
   testimonial_item:
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Logan Weaver"
+      designation : "CEO"
+      image : "images/logan.jpg"
       
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Ayush Rautwar"
+      designation : "CTO"
+      image : "images/ayush.png"
       
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Peter Caspari"
+      designation : "CIO, Quantitative Analyst"
+      image : "images/peter.jpg"
+
+      # testimonial item loop
+    - name : "Robert Eisenlohr"
+      designation : "CEO, Quantitative Analyst"
+      image : "images/robert.jpg"
+  
+  testimonial_item2:
+    # testimonial item loop
+    - name : "Eric Hadley"
+      designation : "Microsoft, Pintrest, Mission"
+      image : "images/eric.jpg"
+      
+    # testimonial item loop
+    - name : "James Barry"
+      designation : "CBS, Chestnut Hill College, Constitution Center"
+      image : "images/james.jpg"
+      
+    # testimonial item loop
+    - name : "Larry Oberfeld"
+      designation : "Strategic Notion, Reuters"
+      image : "images/larry.jpg"
+

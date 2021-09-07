@@ -2,20 +2,14 @@
 
 {{ if $data.homepage.about_product.enable }}
 {{ with $data.homepage.about_product }}
-<section class="feature-list section">
+<section class="feature-list section" id="products">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="heading">
-          <h2>{{ .title | markdownify }}</h2>
-        </div>
-      </div>
-    </div>
+    
     {{ range $index, $element := .items }}
     {{- if ne (mod $index 2) 1 }}
     <div class="row mb-40">
       <div class="col-md-6 text-center mb-5 mb-lg-0">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
+        <video width="100%" autoplay loop><source type="video/mp4" src="{{ .image | absURL }}" alt=""></video>
       </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
